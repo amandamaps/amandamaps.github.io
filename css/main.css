@@ -1465,3 +1465,14 @@ textarea.form-control {
     #portfolio .overlay {height: 89.2%;width: 91%;}
     .Subscribe .heading h3 {font-size: 18px;}
 }
+
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  height: auto;
+  width: auto;
+}
+
