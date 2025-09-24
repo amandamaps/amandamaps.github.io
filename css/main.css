@@ -1467,7 +1467,7 @@ textarea.form-control {
 }
 
 .navbar {
-  background-color: #4169e1 !important; /* makes it black */
+  background-color: transparent !important; /* makes it black */
   padding: 15px 0; /* smaller height so it's not stretched */
 }
 
