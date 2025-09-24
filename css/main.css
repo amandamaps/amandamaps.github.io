@@ -1467,12 +1467,8 @@ textarea.form-control {
 }
 
 .navbar {
-  background-color: #000 !important;
+  background-color: #4169e1 !important; /* makes it black */
+  padding: 15px 0; /* smaller height so it's not stretched */
 }
 
-.navbar-brand img {
-  max-height: 40px;
-  height: auto;
-  width: auto;
-}
 
