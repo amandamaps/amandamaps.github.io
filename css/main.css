@@ -1467,8 +1467,14 @@ textarea.form-control {
 }
 
 .navbar {
-  background-color: transparent !important; /* makes it black */
-  padding: 15px 0; /* smaller height so it's not stretched */
+  background: none !important;   /* removes all color & gradients */
+  background-color: transparent !important;
+  box-shadow: none !important;   /* if there’s a drop shadow */
+  position: absolute;            /* makes it sit on top of the hero */
+  top: 0;
+  left: 0;
+  width: 100%;
 }
+
 
 
