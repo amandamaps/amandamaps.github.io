@@ -226,8 +226,8 @@ header .btn-primary:hover {
 .about {width: 100%;height: auto;padding-top: 50px;}
 .about .icon {text-align: center;}
 .about .heading {text-align: center;padding-bottom: 20px;}
-.about .heading h3 {font-size: 32px;font-weight: 700;letter-spacing: -1.5px;padding-bottom: 15px;}
-.about .heading h4 {font-size: 16px;font-weight: 300;letter-spacing: 0.5px;padding-bottom: 60px;}
+.about .heading h3 {font-size: 45px;font-weight: 700;letter-spacing: -1.5px;padding-bottom: 15px;}
+.about .heading h4 {font-size: 20px;font-weight: 300;letter-spacing: 0.5px;padding-bottom: 60px;}
 .about .icon .fa {
     color: #2cbf84;
     font-size: 60px;
@@ -289,8 +289,8 @@ header .btn-primary:hover {
     padding-bottom: 90px;
 }
 .blog .heading {text-align: center;}
-.blog .heading h3 {font-size: 32px;font-weight: 700;letter-spacing: -1.5px;padding-bottom: 15px;}
-.blog .heading h4 {font-size: 16px;font-weight: 300;letter-spacing: 0.5px;padding-bottom: 60px;}
+.blog .heading h3 {font-size: 45px;font-weight: 700;letter-spacing: -1.5px;padding-bottom: 15px;}
+.blog .heading h4 {font-size: 20px;font-weight: 300;letter-spacing: 0.5px;padding-bottom: 60px;}
 .blog .img-thumbnail {
     padding: 0;
     width: 100%;
