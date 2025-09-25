@@ -1476,5 +1476,31 @@ textarea.form-control {
   width: 100%;
 }
 
+/* Make navbar sticky */
+.navbar {
+  position: sticky; /* or fixed */
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background: transparent; /* default */
+  transition: background-color 0.3s ease;
+}
+
+/* Change navbar background when scrolling */
+.navbar.scrolled {
+  background-color: green; /* adjust color */
+}
+
+/* Add spacing so headings aren’t too high */
+header.banner {
+  padding-top: 120px; /* adjust based on navbar height */
+  padding-bottom: 60px;
+}
+
+header.banner .heading {
+  text-align: center;
+}
+
+
 
 
