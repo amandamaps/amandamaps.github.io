@@ -1462,22 +1462,28 @@ textarea.form-control {
     .Subscribe .heading h3 {font-size: 18px;}
 }
 
-/* Force the home page header to be green */
+/* ===== HOME PAGE HEADER ===== */
 body.home header.banner {
-  background-color: green !important;   /* overwrite any image or overlay */
+  background-color: green !important;   /* solid green */
   background-image: none !important;    /* remove any background image */
-  padding: 120px 0;                     /* adjust for navbar spacing */
+  padding-top: 120px;                    /* adjust for navbar height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;                          /* ensure header height adjusts */
 }
 
-/* Kill the gradient overlay */
+/* Hide any gradient/overlay */
 body.home header.banner .gradient {
   display: none !important;
 }
 
-/* Make sure text is visible */
+/* Ensure text is visible */
 body.home header.banner .heading h1,
 body.home header.banner .heading h2 {
   color: #fff !important;   /* white text */
+  text-align: center;
 }
 
 
