@@ -66,15 +66,48 @@
     </header>
     <html>
 <head>
- <div class="two-column-container">
-    <div class="column left-column">
-        <h2>Left Column</h2>
-        <p>This is the left column content.</p>
-    </div>
-    <div class="column right-column">
-        <h2>Right Column</h2>
-        <p>This is the right column content.</p>
-    </div>
+ <style>
+  .two-column-container {
+    display: flex;              /* puts columns side by side */
+    flex-wrap: wrap;            /* allows stacking on small screens */
+    margin: 0 auto;             /* centers the whole section */
+  }
+
+  .two-column-container .column {
+    flex: 1;                    /* each column takes 50% of row */
+    padding: 40px;
+    box-sizing: border-box;
+  }
+
+  .two-column-container .left-column {
+    background-color: #ffffff;
+    text-align: center;         /* optional: centers text */
+  }
+
+  .two-column-container .right-column {
+    background-color: #ffffff;
+    text-align: center;         /* optional: centers text */
+  }
+
+  /* Mobile: stack them */
+  @media (max-width: 768px) {
+    .two-column-container {
+      flex-direction: column;   /* stack instead of side by side */
+    }
+  }
+</style>
+
+<div class="two-column-container">
+  <div class="column left-column">
+    <h2>Left Column</h2>
+    <p>This is the left column content.</p>
+  </div>
+  <div class="column right-column">
+    <h2>Right Column</h2>
+    <p>This is the right column content.</p>
+  </div>
+</div>
+
 </div>
   
 </div>
