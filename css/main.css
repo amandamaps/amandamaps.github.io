@@ -1466,22 +1466,3 @@ textarea.form-control {
     .Subscribe .heading h3 {font-size: 18px;}
 }
 
-.navbar {
-  background: none !important;   /* removes all color & gradients */
-  background-color: transparent !important;
-  box-shadow: none !important;   /* if there’s a drop shadow */
-  position: absolute;            /* makes it sit on top of the hero */
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-/* Make navbar sticky */
-.navbar {
-  position: sticky; /* or fixed */
-  top: 0;
-  width: 100%;
-  z-index: 9999;
-  background: transparent; /* default */
-  transition: background-color 0.3s ease;
-}
