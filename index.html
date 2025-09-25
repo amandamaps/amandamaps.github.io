@@ -71,35 +71,37 @@
     display: flex;              
     flex-wrap: wrap;            
     margin: 0 auto;             
-    align-items: center;        /* vertically aligns text + image */
   }
 
   .two-column-container .column {
     flex: 1;                    
     padding: 40px;
     box-sizing: border-box;
+    display: flex;              
+    flex-direction: column;     
+    justify-content: center;    /* vertical centering */
+    align-items: center;        /* horizontal centering */
+    text-align: center;         
   }
 
   .two-column-container .left-column {
     background-color: #ffffff;
-    text-align: left;           /* keeps text aligned left */
   }
 
   .two-column-container .right-column {
     background-color: #ffffff;
-    text-align: center;         
   }
 
   .two-column-container .right-column img {
-    max-width: 100%;            /* keeps image responsive */
+    max-width: 100%;
     height: auto;
-    border-radius: 10px;        /* optional: rounded corners */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* optional styling */
+    border-radius: 10px;        
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
 
   @media (max-width: 768px) {
     .two-column-container {
-      flex-direction: column;   /* stacks on small screens */
+      flex-direction: column;   
     }
   }
 </style>
@@ -107,12 +109,13 @@
 <div class="two-column-container">
   <div class="column left-column">
     <h2>Welcome to My Website</h2>
-    <p>This is the left column where you can add text, descriptions, or details about your work or project. It will always sit next to the image on larger screens.</p>
+    <p>This is the left column where your text is centered both vertically and horizontally.</p>
   </div>
   <div class="column right-column">
     <img src="https://via.placeholder.com/500x300" alt="Placeholder Image">
   </div>
 </div>
+
 
   
 </div>
