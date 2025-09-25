@@ -68,47 +68,52 @@
 <head>
  <style>
   .two-column-container {
-    display: flex;              /* puts columns side by side */
-    flex-wrap: wrap;            /* allows stacking on small screens */
-    margin: 0 auto;             /* centers the whole section */
+    display: flex;              
+    flex-wrap: wrap;            
+    margin: 0 auto;             
+    align-items: center;        /* vertically aligns text + image */
   }
 
   .two-column-container .column {
-    flex: 1;                    /* each column takes 50% of row */
+    flex: 1;                    
     padding: 40px;
     box-sizing: border-box;
   }
 
   .two-column-container .left-column {
     background-color: #ffffff;
-    text-align: center;         /* optional: centers text */
+    text-align: left;           /* keeps text aligned left */
   }
 
   .two-column-container .right-column {
     background-color: #ffffff;
-    text-align: center;         /* optional: centers text */
+    text-align: center;         
   }
 
-  /* Mobile: stack them */
+  .two-column-container .right-column img {
+    max-width: 100%;            /* keeps image responsive */
+    height: auto;
+    border-radius: 10px;        /* optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* optional styling */
+  }
+
   @media (max-width: 768px) {
     .two-column-container {
-      flex-direction: column;   /* stack instead of side by side */
+      flex-direction: column;   /* stacks on small screens */
     }
   }
 </style>
 
 <div class="two-column-container">
   <div class="column left-column">
-    <h2>Left Column</h2>
-    <p>This is the left column content.</p>
+    <h2>Welcome to My Website</h2>
+    <p>This is the left column where you can add text, descriptions, or details about your work or project. It will always sit next to the image on larger screens.</p>
   </div>
   <div class="column right-column">
-    <h2>Right Column</h2>
-    <p>This is the right column content.</p>
+    <img src="https://via.placeholder.com/500x300" alt="Placeholder Image">
   </div>
 </div>
 
-</div>
   
 </div>
 <section class="about">
