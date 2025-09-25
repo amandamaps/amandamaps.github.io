@@ -1466,3 +1466,19 @@ textarea.form-control {
     .Subscribe .heading h3 {font-size: 18px;}
 }
 
+/* Force green navbar on home page (same as sticky) */
+body.home .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: green !important;
+  box-shadow: none;
+}
+
+/* Adjust banner so headings aren’t hidden under navbar */
+body.home header.banner {
+  padding-top: 120px; /* adjust based on your navbar height */
+}
+
+
