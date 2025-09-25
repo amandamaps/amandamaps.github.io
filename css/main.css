@@ -1510,4 +1510,15 @@ body.home header.banner .heading h2 {
   text-align: center;
 }
 
+.column h2 {
+  font-size: 45px;     /* adjust size */
+  font-weight: 700;    /* bold (400 = normal, 300 = light) */
+  margin-bottom: 15px; /* optional spacing */
+}
+
+.column p {
+  font-size: 23px;     /* adjust size */
+  font-weight: 300;    /* normal weight */
+  line-height: 1.6;    /* better readability */
+}
 
