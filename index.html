@@ -168,7 +168,52 @@
             </div>
         </div>
     </div>
-</section>
+ }
+
+  .two-column-container .column {
+    flex: 1;                    
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;              
+    flex-direction: column;     
+    justify-content: center;    /* vertical centering */
+    align-items: center;        /* horizontal centering */
+    text-align: center;         
+  }
+
+  .two-column-container .left-column {
+    background-color: #ffffff;
+  }
+
+  .two-column-container .right-column {
+    background-color: #ffffff;
+  }
+
+  .two-column-container .right-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;        
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  @media (max-width: 768px) {
+    .two-column-container {
+      flex-direction: column;   
+    }
+  }
+</style>
+
+<div class="two-column-container">
+  <div class="column left-column">
+     <img src="images/092625blogsm.png" alt="0926blogsm.png">
+    
+  </div>
+  <div class="column right-column">
+   <h2>Check Out What I'm Learning This Week!</h2>
+    <p>A peek inside my learning process and practical GIS work.</p>
+  </div>
+</div>
+
 
 <section class="blog">
     <div class="container">
