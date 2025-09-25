@@ -57,7 +57,7 @@ nav {z-index: 999;transition: all 0.3s;}
 .navbar-brand {margin-top: -15px;}
 .navbar-dark .navbar-nav .active>.nav-link {color: rgb(255, 255, 255); background: #000;}
 .navbar-expand-lg .navbar-nav .nav-link {color: #fff;font-size: 14px;padding-right: 25px;padding-left: 25px;padding: .2rem 1rem;font-weight: 500;text-transform: uppercase;}
-.navbar-dark .navbar-nav .nav-link:hover {color: rgb(65,105,255);}
+.navbar-dark .navbar-nav .nav-link:hover {color: rgb(255,255,255);}
 .navbar-dark .navbar-nav .active:after {display: none;}
 .navbar-dark .navbar-nav li:last-child:after { display: none;}
 .navbar-dark .navbar-nav li:last-child {margin-right: -25px;}
