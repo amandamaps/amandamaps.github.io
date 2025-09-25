@@ -200,28 +200,6 @@ header .btn-primary:hover {
       // About Styles //
 ==============================*/
 
-.two-boxes {
-  display: flex;
-  justify-content: space-between;   /* space between text + image */
-  align-items: center;              /* vertical alignment */
-  background-color: blue;           /* makes the background blue */
-  padding: 20px;
-  gap: 20px;                        /* spacing between the boxes */
-}
-
-/* Shared box styling */
-.two-boxes .box {
-  flex: 1;                          /* each takes 50% width */
-  color: white;                     /* text color against blue */
-}
-
-/* Image styling */
-.two-boxes .image-box img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;               /* optional: rounded corners */
-}
-
 } 
 .about {width: 100%;height: auto;padding-top: 50px;}
 .about .icon {text-align: center;}
