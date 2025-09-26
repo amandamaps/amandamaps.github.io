@@ -237,12 +237,9 @@ header .btn-primary:hover {
     height: 305px;
     margin-top: -20px;
     margin-bottom: -20px;
-    background: rgb(235,81,107);
-    background: -moz-linear-gradient(-45deg, rgb(235,81,107) 0%, rgb(96,113,236) 100%);
-    background: -webkit-linear-gradient(-45deg, rgb(235,81,107) 0%,rgb(96,113,236) 100%);
-    background: linear-gradient(135deg, rgb(235,81,107) 0%,rgb(96,113,236) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb516b', endColorstr='#6071ec',GradientType=1 );
+    background-color: #007BFF; /* solid blue */
 }
+
 .about .heading {text-align: center;}
 .about .row:nth-child(2) {
     border: 1px solid #dbdbdb;
