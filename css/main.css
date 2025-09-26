@@ -563,37 +563,17 @@ header .btn-primary:hover {
       // Footer Styles //
 ==============================*/
 footer {
-    width: 100%;
-    height: auto;
-    color: #fff;
-    position: relative;
-    padding-top: 50px;
-    background-image: url("../images/footer-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background: #000000;   /* solid black */
+  color: #ffffff;        /* white text */
+  text-align: center;
+  padding: 10px 0;       /* controls thickness */
 }
-footer img {padding-bottom: 30px;}
-footer .content {border-right: 1px solid #2e2927;}
-footer .content p {font-size: 14px;font-weight: 200;letter-spacing: 0.5px;padding-right: 50px;}
-footer  h5 {color: #83b502;font-size: 16px;}
-footer  ul>li {display: block;}
-footer  ul>li a {color: #fff;font-size: 12px; font-size: 12px;}
-footer  ul>li a:hover {color: #ff0;}
-footer .gradient {
-    background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%);
-    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%);
-    background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc000000',GradientType=1 );
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+
+footer p {
+  margin: 0;             /* no extra spacing */
+  font-size: 14px;       /* smaller, neat text */
 }
-footer .footer-copyright {position: relative; width: 100%;height: auto;background: black;}
-footer .footer-copyright p {color: #fff;font-size: 14px;padding: 40px 0;}
-footer .footer-copyright a {color: #ffff00;border-bottom: 1px solid #ffff00;}
+
 /*==============================
       // Banner Styles //
 ==============================*/
