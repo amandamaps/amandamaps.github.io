@@ -66,57 +66,22 @@
     </header>
     <html>
 <head>
- <style>
-  .two-column-container {
-    display: flex;              
-    flex-wrap: wrap;            
-    margin: 0 auto;             
-  }
+  <section class="two-column-container py-5">
+  <div class="container bg-white shadow-sm p-4">
+    <div class="row align-items-center">
+      <!-- Left Column: Text -->
+      <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+        <h2>Welcome to Amanda Maps</h2>
+        <p>This site serves as my GIS portfolio, highlighting projects, coursework, and applied research from my master’s studies in Geographic Information Systems. Here, I document my technical development, analytical approaches, and ongoing exploration of spatial data as tools for decision-making and problem-solving.</p>
+      </div>
 
-  .two-column-container .column {
-    flex: 1;                    
-    padding: 40px;
-    box-sizing: border-box;
-    display: flex;              
-    flex-direction: column;     
-    justify-content: center;    /* vertical centering */
-    align-items: center;        /* horizontal centering */
-    text-align: center;         
-  }
-
-  .two-column-container .left-column {
-    background-color: #ffffff;
-  }
-
-  .two-column-container .right-column {
-    background-color: #ffffff;
-  }
-
-  .two-column-container .right-column img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 0px;        
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-
-  @media (max-width: 768px) {
-    .two-column-container {
-      flex-direction: column;   
-    }
-  }
-</style>
-
-<div class="two-column-container">
-  <div class="column left-column">
-    <h2>Welcome to Amanda Maps</h2>
-    <p>This site serves as my GIS portfolio, highlighting projects, coursework, and applied research from my master’s studies in Geographic Information Systems. Here, I document my technical development, analytical approaches, and ongoing exploration of spatial data as tools for decision-making and problem-solving.</p>
+      <!-- Right Column: Image -->
+      <div class="col-md-6 text-center">
+        <img src="images/headshot.png" alt="Headshot" class="headshot.pnt">
+      </div>
+    </div>
   </div>
-  <div class="column right-column">
-    <img src="images/headshot.png" alt="headshot.png">
-  </div>
-</div>
-
-
+</section>
   
 </div>
 <section class="about">
@@ -130,18 +95,23 @@
             </div>
 
 </style>
+<section class="two-column-container py-5">
+  <div class="container bg-white shadow-sm p-4">
+    <div class="row align-items-center">
+      <!-- Left Column: Text -->
+      <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+        <img src="images/092525blogsm.png" alt="092526blogsm.png">
+      </div>
 
-<div class="two-column-container">
-  <div class="column left-column">
-     <img src="images/092525blogsm.png" alt="092526blogsm.png">
-    
-  </div>
-  <div class="column right-column">
-   <h2>Check Out What I'm Learning This Week!</h2>
+      <!-- Right Column: Image -->
+      <div class="col-md-6 text-center">
+        <h2>Check Out What I'm Learning This Week!</h2>
     <p>A peek inside my learning process and practical GIS work.</p>
      <a class="btn btn-primary" href="09-26-25 Blog.html" role="button">More >></a>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
 
 <section class="blog">
