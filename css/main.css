@@ -1464,4 +1464,45 @@ body.home header.banner .heading h2 {
   font-weight: 300;    /* normal weight */
   line-height: 1.6;    /* better readability */
 }
+.flex-two-column {
+  display: flex;              
+  flex-wrap: wrap;            
+  margin: 0 auto;             
+  justify-content: center;
+  gap: 40px; /* space between boxes */
+  align-items: stretch; /* makes all columns the same height */
+}
+
+.flex-two-column .column {
+  flex: 1;                    
+  min-width: 300px;           
+  max-width: 400px;           
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;              
+  flex-direction: column;     
+  justify-content: center;    
+  align-items: center;        
+  text-align: center;         
+  background-color: #ffffff;  /* white only */
+}
+
+.flex-two-column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Responsive stack */
+@media (max-width: 768px) {
+  .flex-two-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-two-column .column {
+    max-width: 100%;
+  }
+}
 
