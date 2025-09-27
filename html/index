@@ -1,1 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Amanda Maps</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+        crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Outfit:100,200,300,400,500,600,700" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">About</a></li>
+          <li class="nav-item active"><a class="nav-link" href="portfolio.html">Notable Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Field Notes</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <header class="banner" style="min-height:600px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 heading text-center">
+          <h1 data-aos="fade-right" data-aos-delay="300">Welcome to Amanda Maps</h1>
+          <h2 data-aos="fade-left" data-aos-delay="300">Maps with Purpose | Code with Impact | Stories in Data</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Intro Two-Column Section: Welcome to Amanda Maps -->
+ <section class="two-column-container py-5">
+  <div class="container bg-white shadow-sm p-4">
+    <div class="row align-items-center">
+      <!-- Left Column: Text -->
+      <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+        <h1>Welcome to Amanda Maps</h1>
+        <p>This site serves as my GIS portfolio, highlighting projects, coursework, and applied research from my master’s studies in Geographic Information Systems. Here, I document my technical development, analytical approaches, and ongoing exploration of spatial data as tools for decision-making and problem-solving.</p>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-md-6 text-center">
+        <img src="images/headshot.png" alt="Headshot" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Tech Stack Section -->
+  <section class="about py-5">
+    <div class="container text-center">
+      <h3>Explore my Tech Stack in Progress</h3>
+      <h4>From GIS analysis to web development and data visualization, here’s a snapshot of the tools and technologies I use to bring projects to life.</h4>
+    </div>
+  </section>
+
+  <!-- Blog/Featured Section -->
+ <section class="two-column-container py-5">
+  <div class="container bg-white shadow-sm p-4">
+    <div class="row align-items-center">
+      <!-- Left Column: Text -->
+      <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+       <img src="images/092525blogsm.png" alt="Blog Preview" class="img-fluid">
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-md-6 text-center">
+        <h1>Check Out What I'm Learning This Week!</h1>
+      <p>A peek inside my learning process and practical GIS work.</p>
+      <a class="btn btn-primary" href="09-26-25 Blog.html" role="button">More >></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Visitor Section -->
+  <section class="blog py-5">
+    <div class="container text-center">
+      <h1>Who's Visiting Amanda Maps?</h1>
+      <p>More Coming Soon!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-copyright text-center">
+      <p>© 2025 All Rights Reserved by Amanda Maps.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script src="js/animate.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    $('.carousel').carousel({ interval: 2000 });
+
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
+</body>
+</html>
 
