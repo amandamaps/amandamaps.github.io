@@ -775,12 +775,12 @@ footer p {
 #contact .btn-primary {
     color: #fff;
     width: 163px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     background-color: #007bff; /* Bootstrap blue */
     border-color: #007bff;
     height: 64px;
-    border-radius: 3px;
+    border-radius: 0px;
 }
 
 
