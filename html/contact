@@ -1,1 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Amanda Maps - Contact</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Outfit:100,200,300,400,500,600,700" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .two-column-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+
+    .two-column-container .column {
+      flex: 1;
+      padding: 40px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .two-column-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Notable Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Field Notes</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    <!-- Banner -->
+  <header class="banner" style="min-height:600px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 heading text-center">
+          <h1 data-aos="fade-right" data-aos-delay="300">Get in Touch</h1>
+          <h2 data-aos="fade-left" data-aos-delay="300">I’m available for project inquiries, collaborations, and professional connections in GIS and geospatial analysis.</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <!-- Two-column contact section -->
+     <!-- Intro Two-Column Section: Welcome to Amanda Maps -->
+ <section class="two-column-container py-5">
+  <div class="container bg-white shadow-sm p-4">
+    <div class="row align-items-center">
+      <!-- Left Column: Text -->
+      <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+        <h2>Email Amanda</h2>
+        <p>Feel free to email me at <a href="mailto:amanda.carleski@icloud.com">amanda.carleski@icloud.com</a></p>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-md-6 text-center">
+        <h2>Connect on LinkedIn</h2>
+        <p>I would love to connect on LinkedIn: <a href="https://www.linkedin.com/in/amandacarleski/" target="_blank">@AmandaCarleski</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 All Rights Reserved by Amanda Maps.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
 
